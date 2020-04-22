@@ -2,23 +2,238 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Task for WebMakers</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap&subset=latin-ext" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/0e79c1fab4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Hello</h1>
+        <div class="navbar">
+            <div class="navbar__logo"></div>
+            <div class="navbar__desc">
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos
+                    dolores et quas molestias excepturi sint occaecati.
+                </p>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="row">
+                <div class="col-lg-8 col-md-12">
+                    <div class="heading">
+                        <h1 class="big-title">faq</h1>
+                        <h2 class="under-title">co musisz wiedzieć</h2>
+                    </div>
+
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">01</div>Co to jest
+                                            zdolność kredytowa i jak ją bank oblicza?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">02</div>Co składa się na koszt kredytu mieszkaniowego?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">03</div>Na jaki okres udzielane są kredyty hipoteczne?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">04</div>Jakie są koszty wcześniejszej spłaty kredytu hipotecznego?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">05</div>Co to jest zabezpieczenie kredytu hipotecznego?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFive" class="panel-collapse collapse">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">06</div>Które raty są korzystniejsze: równe czy malejące?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSix" class="panel-collapse collapse">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                        <div class="panel-title__left">
+                                            <div class="panel-title__nb">07</div>Na co należy zwrócić uwagę wybierając kredyt mieszkaniowy?
+                                        </div>
+                                        <div class="panel-title__right">
+                                            <i class="fas fa-chevron-circle-down"></i>
+                                        </div>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseSeven" class="panel-collapse collapse">
+                                <p>
+                                    Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem
+                                    aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                    quasi architecto beatae vitae dicta sunt explicabo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 sidebar">
+                    <div class="sidebar__content">
+                        <h3 class="sidebar__content__h white">
+                            dokumenty i pliki<span class="thin"> do pobrania</span>
+                        </h3>
+
+                        <ul class="sidebar__content__list">
+                            <li>
+                                <a href="#" title="Kliknij by pobrać plik">cennik reklamowy 2017<i class="fas fa-file-download"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Kliknij by pobrać plik">cennik kampanii 1 dniowej<i class="fas fa-file-download"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Kliknij by pobrać plik">cennik reklam wideo<i class="fas fa-file-download"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" title="Kliknij by pobrać plik">cennik reklam mobilnych<i class="fas fa-file-download"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="/src/js/script.js"></script>
+
 </body>
 
 </html>
