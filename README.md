@@ -11,6 +11,6 @@ Cutting up PSD into HTML & SCSS files
 
 ## Final LOOK
 
-[Website](https://mkudlak.github.io/Task/)
+[Website](http://faq.emka-websites.pl/)
 
-https://mkudlak.github.io/Task/
+http://faq.emka-websites.pl/
